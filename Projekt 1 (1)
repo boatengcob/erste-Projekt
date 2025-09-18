@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <title>Alan Turing</title>
+  </head>
+
+  <body>
+    <h1>Alan Turing</h1>
+    <hr />
+    <img src="bild/wikipedia.png" />
+    <p>
+      Alan Mathison Turing OBE,[2] FRS[3] [ˈælən ˈmæθɪsən ˈtjʊəɹɪŋ] (* 23. Juni
+      1912 in London; † 7. Juni 1954 in Wilmslow, Cheshire) war ein britischer
+      Logiker, Mathematiker, Kryptoanalytiker und Informatiker. Er gilt heute
+      als einer der einflussreichsten Theoretiker der frühen Computerentwicklung
+      und Informatik. Turing schuf einen großen Teil der theoretischen
+      Grundlagen für die moderne Informations- und Computertechnologie. Als
+      richtungsweisend erwiesen sich auch seine Beiträge zur theoretischen
+      Biologie.
+    </p>
+
+    <h2>Leben und Wirken</h2>
+    <hr />
+    <p>
+      Alan Turings Vater, Julius Mathison Turing, war britischer Beamter beim
+      Indian Civil Service. Er und seine Frau Ethel Sara Turing (geborene
+      Stoney) wünschten, dass ihre Kinder in Großbritannien aufwüchsen.[11]
+      Deshalb kehrte die Familie vor Alans Geburt aus Chhatrapur, damals
+      Britisch-Indien, nach London-Paddington zurück, wo Alan Turing am 23. Juni
+      1912 zur Welt kam. Da der Staatsdienst seines Vaters noch nicht beendet
+      war, reiste dieser im Frühjahr 1913 erneut nach Indien, wohin ihm seine
+      Ehefrau im Herbst folgte. Turing und sein älterer Bruder John wurden nach
+      St Leonards-on-the-Sea, Hastings, in die Familie eines pensionierten
+      Obersts und dessen Frau in Pflege gegeben. In der Folgezeit pendelten die
+      Eltern zwischen England und Indien, bis sich Turings Mutter 1916
+      entschied, längere Zeit in England zu bleiben, und die Söhne wieder zu
+      sich nahm. Schon in früher Kindheit zeigte sich hohe Begabung und
+      Intelligenz
+    </p>
+
+    <h3>Collegezeit und Theoretische Arbeit</h3>
+    <hr />
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
